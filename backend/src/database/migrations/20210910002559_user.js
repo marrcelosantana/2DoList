@@ -10,5 +10,4 @@ exports.up = function(knex) {  // <- Método "up" responsável pela criação da
 
 exports.down = function(knex) {  // <- Método down responsável por desfazer coisas na tabela
   return knex.schema.dropTable('user');
-  
 };
